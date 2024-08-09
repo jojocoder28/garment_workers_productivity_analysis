@@ -77,7 +77,7 @@ st.title("Productivity Prediction")
 
 # Input features from the user
 # date = st.date_input("Date")
-quarter = st.selectbox("Quarter", [1, 2, 3, 4])
+quarter = st.selectbox("Quarter", [1, 2, 3, 4, 5])
 department = st.selectbox("Department", df['department'].unique())
 # day = st.selectbox("Day", df['day'].unique())
 team = st.selectbox("Team",df['team'].unique() )
